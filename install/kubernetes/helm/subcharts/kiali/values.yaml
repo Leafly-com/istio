@@ -22,6 +22,7 @@ ingress:
     #     - kiali.local
 gateway:
   enabled: false
+  name: ingressgateway
 dashboard:
   secretName: kiali
   usernameKey: username

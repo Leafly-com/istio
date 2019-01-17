@@ -35,3 +35,4 @@ service:
 
 gateway:
   enabled: false
+  name: ingressgateway

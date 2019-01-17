@@ -11,7 +11,7 @@ metadata:
     release: {{ .Release.Name }}
 spec:
   selector:
-    istio: ingressgateway
+    istio: {{ .Values.gateway.name }}
   servers:
   - port:
       number: 15029

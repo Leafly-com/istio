@@ -39,6 +39,7 @@ service:
 
 gateway:
   enabled: false
+  name: ingressgateway
 
 datasources:
   datasources.yaml:
